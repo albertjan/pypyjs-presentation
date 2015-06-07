@@ -5,12 +5,10 @@ data:
   background: white
 ---
 
-<img style= "border: 0px; box-shadow: none" src="https://trinket.io/img/trinket-logo.png" alt="Trinket logo">
+<img style= "border: 0px; box-shadow: none" src="http://pypy.org/image/pypy-logo.png" alt="pypy-logo">
++
+<img style= "border: 0px; box-shadow: none" src="http://classroom.w3devcampus.com/pluginfile.php/27684/course/summary/logo_JavaScript.png" alt="js-logo">
 
-### Interactive Teaching: `Show`{: .button} & `Play`{: .button}
+### PyPy.js
 
-#### By [Elliott Hauser](http://elliotthauser.com){: .external} / [@hauspoor](http://twitter.com/hauspoor){: .twitter}
-
-#### CEO,  [Trinket.io](http://trinket.io/){: .external}
-
-
+#### By [Albert-Jan Nijburg](http://elliotthauser.com){: .external} / [@ajpnijburg](http://twitter.com/hauspoor){: .twitter}

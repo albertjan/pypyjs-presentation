@@ -19,7 +19,9 @@ __Not__ a python programmer!
 
 ## tinket.io
 
-
+ - currently uses skulpt
+ - users want a more complete python
+ - not feasible for skulpt
 
 ## it's a bug
 
@@ -71,9 +73,9 @@ compiler.walk(ast, SimpleVisitor(), ExampleASTVisitor(), verbose=True)
 This can't be fast!
 
 - cpython pystones 50000
-- skulpt pystones 2500
-- pypyjs pystones 3900 1st run
-- pypyjs pystones 90000 2nd run (jit!)
+- skulpt  pystones 2500
+- pypyjs  pystones 3900 1st run
+- pypyjs  pystones 90000 2nd run (jit!)
 
 #what do I do
 
