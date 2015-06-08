@@ -8,7 +8,7 @@ data:
 
 ## Ok ok
 
-<img style= "border: 0px; box-shadow: none; height: 350px" src="/pypyjs-presentation/assets/compiler-wtf0.dot.png"/>
+<img style= "border: 0px; box-shadow: none; height: 400px" src="/pypyjs-presentation/assets/compiler-wtf0.dot.png"/>
 
 </section>
 
@@ -16,7 +16,7 @@ data:
 
 ## Yeah
 
-<img style= "border: 0px; box-shadow: none; height: 350px" src="/pypyjs-presentation/assets/compiler-wtf1.dot.png"/>
+<img style= "border: 0px; box-shadow: none; height: 400px" src="/pypyjs-presentation/assets/compiler-wtf1.dot.png"/>
 
 </section>
 
@@ -24,7 +24,7 @@ data:
 
 ## Please no more jit
 
-<img style= "border: 0px; box-shadow: none; height: 350px" src="/pypyjs-presentation/assets/compiler-wtf2.dot.png"/>
+<img style= "border: 0px; box-shadow: none; height: 400px" src="/pypyjs-presentation/assets/compiler-wtf2.dot.png"/>
 
 </section>
 
@@ -32,6 +32,6 @@ data:
 
 ## We're gonna be late!
 
-<img style= "border: 0px; box-shadow: none; height: 350px" src="/pypyjs-presentation/assets/compiler-wtf3.dot.png"/>
+<img style= "border: 0px; box-shadow: none; height: 400px" src="/pypyjs-presentation/assets/compiler-wtf3.dot.png"/>
 
 </section>
