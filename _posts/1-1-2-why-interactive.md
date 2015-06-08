@@ -1,13 +1,11 @@
 ---
 layout: slide
-title: "Why Interactive?"
+title: "Why?"
 data:
-  background:  "#fff1a8"
+  background:  "#77dd77"
 ---
 
-
-[`Showing`](#/1){: .button .darker} is important for teaching
-
-[`Playing`](#/1){: .button .lighter} is important for learning
-
-[`Interactive`](#/1){: .button} examples should allow both.
+- because we can!
+- python programmers appear to __hate__ javascript
+- wanted to learn about compilers
+- because trinket.io asked me to

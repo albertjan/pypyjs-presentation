@@ -1,21 +1,44 @@
 ---
 layout: slide
-title: Trinkets Go Anywhere
+title: pypyjs
 data:
   background: #62b0ef
 ---
 
-Teachers `Show` with their class websites or LMSs.
+<div id="#console"></div>
+<!-- shim for ES6 `Promise` builtin -->
+<script src="{{ site.baseurl }}/assets/js/pypy.js-0.3.1/lib/Promise.min.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/pypy.js-0.3.1/lib/FunctionPromise.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/pypy.js-0.3.1/lib/pypy.js" type="text/javascript"></script>
+<script type="text/javascript">
 
-So we made sure that Trinkets work with:
+    $(function () {
+      // Global vars, for easy debugging in console.
+      window.jqconsole = $('#console').jqconsole('', '>>> ');
+      window.vm = new PyPyJS();
+      // Send all VM output to the console.
+      vm.stdout = vm.stderr = function(data) {
+        jqconsole.Write(data, 'jqconsole-output');
+      }
+      // Display a helpful message and twiddle thumbs as it loads.
+      vm.stdout('Loading PyPy.js.\n')
+      vm.stdout('It\'s big, so this might take a while...\n\n')
+      vm.ready.then(function() {
+        jqconsole.Reset();
+        vm.stdout('Welcome to PyPy.js!\n')
+        // REPL forever via jqconsole prompt.
+        return vm.repl(function(ps1) {
+          jqconsole.SetPromptLabel(ps1);
+          return new Promise(function(resolve, reject) {
+            jqconsole.Prompt(true, function (input) {
+              resolve(input);
+            });
+          });
+        });
+      }).then(null, function(err) {
+        //jqconsole.Reset();
+        jqconsole.Write('ERROR: ' + err);
+      });
+    });
 
-- Google Sites
-- Wikispaces
-- Canvas
-- Weebly
-- Edublogs
-- Wordpress
-- Sakai
-- edX
-
-Instead of videos, let students `Play` with a Trinket instead!
+</script>

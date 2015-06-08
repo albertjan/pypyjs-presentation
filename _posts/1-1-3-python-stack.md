@@ -1,24 +1,13 @@
 ---
 layout: slide
-title: 
+title: trinket.io
 lang: Python
 data:
   background: "#69b3ef"
 ---
 
 <section markdown="1">
-
-##  {{ page.lang }}
-
-I think [Python is the best first language](http://blog.trinket.io/why-python){: .external}
-
-To see {{ page.lang }} examples, press the down arrow:
-
-[![Down arrow](https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png)](#/2/1){: .image .navigate-down}
-
-</section>
-<section markdown="1">
-Python's built-in `turtle` module is a great visual intro to coding that students can easily `Play` with: 
+trinket.io is there to teach code and python is a great first language!
 
 {% include trinket-open type='python' %}
 import turtle
@@ -38,7 +27,7 @@ tina.write("Hello world!")
 </section>
 <section markdown="1">
 
-Python is also a powerful for `Showing` how to get insights from data.  Check out this basic `matplotlib` graph by Gil Forsyth:
+And people get better and want more from trinket.
 
 {% include trinket-open type='python' height='600' width='100%' %}
 import numpy #can't forget this!
@@ -50,14 +39,5 @@ y = x**2    #this is how Python does exponents
 plt.plot(x,y,'*')           #create the plot
 plt.show()                  #show the plot
 {% include trinket-close %}
-
-</section>
-<section markdown="1">
-
-## What's Next? The Web!
-
-Press the right arrow to move on to HTML.
-
-[![Up arrow](https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png){: style="transform: rotate(270deg);-webkit-transform: rotate(270deg);"}](#/3)
 
 </section>
