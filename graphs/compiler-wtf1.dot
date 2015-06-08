@@ -1,0 +1,7 @@
+digraph G {
+  "pypy.py" [shape=box];
+  "pypy.py" -> "pypy.c" [label=rpython];
+  "pypy.c" -> "pypy.js" [label=emscripten];
+  "pypy.js" -> "pypy.x86" [label=jsjit];
+  {rank = same; "pypy.js"[group=g1]; "pypy.x86"[group=g2];}
+}
