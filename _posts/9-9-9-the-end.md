@@ -8,4 +8,4 @@ data:
 ## Thank You!
 
 [@ajpnijburg](https://twitter.com/ajpnijburg){: .twitter}
-[albertjan](https://github.com/albertjan){: .github}
+[github.com/albertjan](https://github.com/albertjan){: .github}
