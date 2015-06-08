@@ -13,9 +13,9 @@ kramdown:
   ## for german: "sbquo,lsquo,bdquo,ldquo"
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 
-title:       Trinket
-author:      Elliott Hauser
-description: Teach Interactive Code with Trinket
+title:       PyPy.js
+author:      Albert-Jan
+description: ??
 
 sass:
   sass_dir:  _sass
