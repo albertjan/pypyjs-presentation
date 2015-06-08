@@ -407,7 +407,7 @@ PyPyJS.prototype.fetch = function fetch(relpath, responseType) {
         relpath = relpath.replace("__init__", "init");
       }
       xhr.open('GET', rootURL + relpath, true);
-      xhr.responseType = responseType || "string";
+      xhr.responseType = responseType || "text/plain";
       xhr.send(null);
     }).bind(this));
   }
