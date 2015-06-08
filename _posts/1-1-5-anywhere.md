@@ -10,6 +10,8 @@ data:
 <script src="{{ site.baseurl }}/assets/js/pypy.js-0.3.1/lib/Promise.min.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/pypy.js-0.3.1/lib/FunctionPromise.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/assets/js/pypy.js-0.3.1/lib/pypy.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/jqconsole.min.js" type="text/javascript"></script>
+
 <script type="text/javascript">
 
     $(function () {

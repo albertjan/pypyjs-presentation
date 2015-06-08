@@ -1,0 +1,5 @@
+#!/usr/local/bin/node
+
+const PyPyJS = require("./lib/pypy.js");
+var vm = new PyPyJS();
+vm.repl();
