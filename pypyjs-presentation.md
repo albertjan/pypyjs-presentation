@@ -10,6 +10,12 @@
 
 __Not__ a python programmer!
 
+But I have been working on javascript compilers in javascript for some years
+
+berco asked me to do a talk about pypy.js
+
+pypyjs is pypy built with a custom emscripten backend
+
 ## why?
 
  - because you can
@@ -43,7 +49,6 @@ __Not__ a python programmer!
 ## working example (skulpt)
 
  - list comprehension `[2 * x for x in range(101) if x ** 2 > 3]`
-
  - `import compiler`
 
 ## pypyjs

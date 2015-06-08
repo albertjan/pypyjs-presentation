@@ -20,8 +20,8 @@ for c in ['red', 'green', 'yellow', 'blue']:
     tina.left(90)
 
 tina.penup()
-tina.backward(100)
-tina.write("Hello world!")
+tina.goto(-100,-50)
+tina.write("Hello world!", font=("Arial", 30, "bold"))
 {% include trinket-close %}
 
 </section>
@@ -40,6 +40,6 @@ plt.plot(x,y,'*')           #create the plot
 plt.show()                  #show the plot
 {% include trinket-close %}
 
-What about performance? 
+What about performance?
 
 </section>
