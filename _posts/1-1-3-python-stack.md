@@ -44,42 +44,10 @@ plt.show()                  #show the plot
 
 <section markdown="1">
 
-And people get better and want more from trinket.
+Skulpt and trinket are awesome but we pay the price in performance.
 
 {% include trinket-open type='python' height='600' width='100%' %}
 #! /usr/bin/env python
-
-"""
-"PYSTONE" Benchmark Program
-
-Version:        Python/1.1 (corresponds to C/1.1 plus 2 Pystone fixes)
-
-Author:         Reinhold P. Weicker,  CACM Vol 27, No 10, 10/84 pg. 1013.
-
-                Translated from ADA to C by Rick Richardson.
-                Every method to preserve ADA-likeness has been used,
-                at the expense of C-ness.
-
-                Translated from C to Python by Guido van Rossum.
-
-Version History:
-
-                Version 1.1 corrects two bugs in version 1.0:
-
-                First, it leaked memory: in Proc1(), NextRecord ends
-                up having a pointer to itself.  I have corrected this
-                by zapping NextRecord.PtrComp at the end of Proc1().
-
-                Second, Proc3() used the operator != to compare a
-                record to None.  This is rather inefficient and not
-                true to the intention of the original benchmark (where
-                a pointer comparison to None is intended; the !=
-                operator attempts to find a method __cmp__ to do value
-                comparison of the record).  Version 1.1 runs 5-10
-                percent faster than version 1.0, so benchmark figures
-                of different versions can't be compared directly.
-
-"""
 
 LOOPS = 50000
 
@@ -301,22 +269,7 @@ def Func3(EnumParIn):
     if EnumLoc == Ident3: return TRUE
     return FALSE
 
-if __name__ == '__main__':
-    import sys
-    def error(msg):
-        print >>sys.stderr, msg,
-        print >>sys.stderr, "usage: %s [number_of_loops]" % sys.argv[0]
-        sys.exit(100)
-    nargs = len(sys.argv) - 1
-    if nargs > 1:
-        error("%d arguments are too many;" % nargs)
-    elif nargs == 1:
-        try: loops = int(sys.argv[1])
-        except ValueError:
-            error("Invalid argument %r;" % sys.argv[1])
-    else:
-        loops = LOOPS
-    main(loops)
+main(LOOPS)
 
 {% include trinket-close %}
 
