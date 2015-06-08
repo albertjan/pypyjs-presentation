@@ -402,8 +402,10 @@ PyPyJS.prototype.fetch = function fetch(relpath, responseType) {
           resolve(xhr);
         }
       };
-      var relpath = relpath !== undefined ? relpath.replace("__init__", "init") : relpath;
       var rootURL = this.rootURL || PyPyJS.rootURL;
+      if (relpath !== undefined && relpath.indexOf("__init__") !== -1) {
+        relpath = relpath.replace("__init__", "init");
+      }
       xhr.open('GET', rootURL + relpath, true);
       xhr.responseType = responseType || "string";
       xhr.send(null);
