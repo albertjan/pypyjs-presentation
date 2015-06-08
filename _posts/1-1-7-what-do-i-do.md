@@ -1,8 +1,8 @@
 ---
 layout: slide
-title: what do I do
+title: "what do I do"
 data:
-  background: #62b0ef
+  background: #D9988A
 ---
 <section markdown="1">
 ## {{page.title}}
@@ -15,6 +15,6 @@ data:
 <section  markdown="1">
 ## emterpreter
 
--
+- test
 
 </section>
