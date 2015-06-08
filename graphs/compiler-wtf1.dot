@@ -1,4 +1,5 @@
 digraph G {
+  graph [bgcolor=transparent]
   "pypy.py" [shape=box];
   "pypy.py" -> "pypy.c" [label=rpython];
   "pypy.c" -> "pypy.js" [label=emscripten];
