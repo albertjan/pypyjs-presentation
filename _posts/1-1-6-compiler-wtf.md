@@ -1,6 +1,6 @@
 ---
 layout: slide
-title: WTF Compiler!
+title:
 data:
   background: lightgrey
 ---
@@ -8,7 +8,7 @@ data:
 
 ## Ok ok
 
-[compiler wtf]("/assets/compiler-wtf0.dot.png")
+<img src="/assets/compiler-wtf0.dot.png"/>
 
 </section>
 
@@ -16,7 +16,7 @@ data:
 
 ## Yeah
 
-[compiler wtf]("/assets/compiler-wtf1.dot.png")
+<img src="/assets/compiler-wtf1.dot.png"/>
 
 </section>
 
@@ -24,7 +24,7 @@ data:
 
 ## Please no more jit
 
-[compiler wtf]("/assets/compiler-wtf2.dot.png")
+<img src="/assets/compiler-wtf2.dot.png"/>
 
 </section>
 
@@ -32,6 +32,6 @@ data:
 
 ## We're gonna be late!
 
-[compiler wtf]("/assets/compiler-wtf3.dot.png")
+<img src="/assets/compiler-wtf3.dot.png"/>
 
 </section>
