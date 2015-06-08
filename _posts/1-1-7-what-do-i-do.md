@@ -1,9 +1,20 @@
 ---
 layout: slide
-title: pypy.js
+title: what do I do
 data:
   background: #62b0ef
 ---
-# {{page.title}}
+<section markdown="1">
+## {{page.title}}
 
-{% include pypyjs %}
+- working on skulpt for some years
+- adding synchronous functions to pypyjs
+- emterpreter
+</section>
+
+<section  markdown="1">
+## emterpreter
+
+-
+
+</section>
