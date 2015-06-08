@@ -1,11 +1,11 @@
 ---
 layout: slide
-title: "what do I do"
+title: ""
 data:
   background: #D9988A
 ---
 <section markdown="1">
-## {{page.title}}
+## what do I do
 
 - working on skulpt for some years
 - adding synchronous functions to pypyjs
